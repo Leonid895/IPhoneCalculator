@@ -1,0 +1,98 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgb(24, 24, 24);
+}
+body .screen-borders {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 16.563rem;
+  height: 35.625rem;
+  border: solid 1px #8F9095;
+  border-radius: 30px;
+  background-color: #000000;
+}
+body .screen-borders .answer {
+  width: 100%;
+  height: 30%;
+  position: relative;
+}
+body .screen-borders .answer .answer-text {
+  display: inline;
+  position: absolute;
+  width: 16.563rem;
+  right: 0;
+  bottom: 0;
+  font-size: 36px;
+  padding-right: 10px;
+  padding-left: 10px;
+  letter-spacing: 0.05em;
+  text-align: right;
+  word-break: break-all;
+}
+body .screen-borders .buttons {
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .screen-borders .buttons a {
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  line-height: 55px;
+  background-color: #333333;
+  border-radius: 50%;
+  margin-inline: 3px;
+}
+body .screen-borders .buttons .sign {
+  background-color: #FE9F09;
+}
+body .screen-borders .buttons .special {
+  background-color: #A5A5A5;
+}
+body .screen-borders .buttons #zero-btn {
+  width: 110px;
+  border-radius: 40%;
+}
+body .screen-borders .home-button {
+  background-color: white;
+  height: 5px;
+  width: 50%;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+body span,
+body a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}

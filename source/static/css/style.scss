@@ -1,0 +1,87 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 24, 24);
+
+    .screen-borders {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 16.563rem;
+        height: 35.625rem;
+        border: solid 1px #8F9095;
+        border-radius: 30px;
+        background-color: #000000;
+
+        .answer {
+            width: 100%;
+            height: 30%;
+            position: relative;
+
+            .answer-text {
+                display: inline;
+                position: absolute;
+                width: 16.563rem;
+                right: 0;
+                bottom: 0;
+                font-size: 36px;
+                padding-right: 10px;
+                padding-left: 10px;
+                letter-spacing: 0.05em;
+                text-align: right;
+                word-break: break-all;
+            }
+        }
+
+        .buttons {
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding-bottom: 10px;
+            align-items: center;
+
+            a {
+                width: 55px;
+                height: 55px;
+                text-align: center;
+                line-height: 55px;
+                background-color: #333333;
+                border-radius: 50%;
+                margin-inline: 3px;
+            }
+
+            .sign {
+                background-color: #FE9F09;
+            }
+
+            .special {
+                background-color: #A5A5A5;
+            }
+
+            #zero-btn {
+                width: 110px;
+                border-radius: 40%;
+            }
+        }
+
+        .home-button {
+            background-color: white;
+            height: 5px;
+            width: 50%;
+            border-radius: 5px;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+    }
+
+    span,
+    a {
+        color: white;
+        font-size: 24px;
+        text-decoration: none;
+    }
+}
